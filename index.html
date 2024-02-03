@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <div class="weather-app">
+
+        <div class="input-part">
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Pesquisar">
+                <button class="search-button"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+
+        <div class="weather-info hide-elements">
+            <div class="location-box">
+                <i class="fa-solid fa-location-dot"></i>
+                <span class="location">Agualva-Cacém, Portugal</span>
+            </div>
+    
+            <div class="weather-box">
+                <img src="images/cloud.png" class="weather-image">
+                <span class="temperature">18ºC</span>
+                <span class="weather-desc">Parcialmente Nublado</span>
+            </div>
+    
+            <div class="weather-details-box">
+                <i class="fa-solid fa-droplet"></i>
+                <div class="humidity">  
+                    <span class="humidity-rate">84%</span>
+                    <span class="humidity-desc">Humidade</span>
+                </div>
+    
+                <i class="fa-solid fa-wind"></i>
+                <div class="wind">  
+                    <span class="wind-speed">2km/h</span>
+                    <span class="wind-desc">Vento</span>
+                </div>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
